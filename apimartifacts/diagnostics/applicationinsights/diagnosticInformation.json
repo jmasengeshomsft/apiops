@@ -1,0 +1,12 @@
+{
+  "properties": {
+    "alwaysLog": "allErrors",
+    "httpCorrelationProtocol": "Legacy",
+    "logClientIp": true,
+    "loggerId": "/subscriptions/38bfc61d-d89a-4df6-b8fb-0c14568dcf29/resourceGroups/aks-playground-centralus-eshop-dev-rg/providers/Microsoft.ApiManagement/service/aks-playground-centralus-eshop-dev-apim-001/loggers/aks-playground-centralus-hub-ai",
+    "sampling": {
+      "percentage": 100,
+      "samplingType": "Fixed"
+    }
+  }
+}

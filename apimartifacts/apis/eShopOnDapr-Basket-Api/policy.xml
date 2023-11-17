@@ -1,0 +1,22 @@
+<policies>
+	<inbound>
+		<base />
+		<choose>
+			<when condition="@("Central US".Equals(context.Deployment.Region, StringComparison.OrdinalIgnoreCase))">
+				<set-backend-service base-url="https://eshop.uat.mfgakspg.com/basket" />
+			</when>
+			<when condition="@("East US".Equals(context.Deployment.Region, StringComparison.OrdinalIgnoreCase))">
+				<set-backend-service base-url="https://eshop.eastus-uat.mfgakspg.com/basket" />
+			</when>
+		</choose>
+	</inbound>
+	<backend>
+		<base />
+	</backend>
+	<outbound>
+		<base />
+	</outbound>
+	<on-error>
+		<base />
+	</on-error>
+</policies>

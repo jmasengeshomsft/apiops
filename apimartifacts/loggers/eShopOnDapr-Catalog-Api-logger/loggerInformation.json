@@ -1,0 +1,11 @@
+{
+  "properties": {
+    "credentials": {
+      "instrumentationKey": "{{Logger-Credentials--6552727b67ce421af4cfabda}}"
+    },
+    "description": "",
+    "isBuffered": true,
+    "loggerType": "applicationInsights",
+    "resourceId": "/subscriptions/38bfc61d-d89a-4df6-b8fb-0c14568dcf29/resourceGroups/aks-playground-centralus-hub-rg/providers/Microsoft.Insights/components/aks-playground-centralus-hub-ai"
+  }
+}

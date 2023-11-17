@@ -1,0 +1,11 @@
+[
+  {
+    "name": "eShopOnDapr-Basket-Api"
+  },
+  {
+    "name": "eShopOnDapr-Catalog-Api"
+  },
+  {
+    "name": "eShopOnDapr-Ordering-Api"
+  }
+]

@@ -1,0 +1,22 @@
+{
+  "properties": {
+    "apiRevision": "1",
+    "apiRevisionDescription": "",
+    "apiVersionDescription": "",
+    "authenticationSettings": {},
+    "description": "",
+    "displayName": "eShopOnDapr-Basket-Api",
+    "isCurrent": true,
+    "path": "apis/b",
+    "protocols": [
+      "http",
+      "https"
+    ],
+    "serviceUrl": "https://eshop.uat.mfgakspg.com/basket",
+    "subscriptionKeyParameterNames": {
+      "header": "Ocp-Apim-Subscription-Key",
+      "query": "subscription-key"
+    },
+    "subscriptionRequired": false
+  }
+}

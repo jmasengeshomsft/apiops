@@ -1,0 +1,58 @@
+{
+  "properties": {
+    "alwaysLog": "allErrors",
+    "backend": {
+      "request": {
+        "body": {
+          "bytes": 32
+        },
+        "headers": [
+          "accept",
+          "content-type",
+          "origin"
+        ]
+      },
+      "response": {
+        "body": {
+          "bytes": 32
+        },
+        "headers": [
+          "content-length",
+          "content-type",
+          "origin"
+        ]
+      }
+    },
+    "frontend": {
+      "request": {
+        "body": {
+          "bytes": 32
+        },
+        "headers": [
+          "accept",
+          "content-type",
+          "origin"
+        ]
+      },
+      "response": {
+        "body": {
+          "bytes": 32
+        },
+        "headers": [
+          "content-length",
+          "content-type",
+          "origin"
+        ]
+      }
+    },
+    "httpCorrelationProtocol": "W3C",
+    "logClientIp": true,
+    "loggerId": "/subscriptions/38bfc61d-d89a-4df6-b8fb-0c14568dcf29/resourceGroups/aks-playground-centralus-eshop-dev-rg/providers/Microsoft.ApiManagement/service/aks-playground-centralus-eshop-dev-apim-001/loggers/eShopOnDapr-Ordering-Api-logger",
+    "operationNameFormat": "Name",
+    "sampling": {
+      "percentage": 100,
+      "samplingType": "Fixed"
+    },
+    "verbosity": "verbose"
+  }
+}

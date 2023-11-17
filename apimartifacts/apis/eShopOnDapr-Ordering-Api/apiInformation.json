@@ -1,0 +1,22 @@
+{
+  "properties": {
+    "apiRevision": "1",
+    "apiRevisionDescription": "",
+    "apiVersionDescription": "",
+    "authenticationSettings": {},
+    "description": "",
+    "displayName": "eShopOnDapr-Ordering-Api",
+    "isCurrent": true,
+    "path": "apis/o",
+    "protocols": [
+      "http",
+      "https"
+    ],
+    "serviceUrl": "https://eshop.uat.mfgakspg.com/ordering",
+    "subscriptionKeyParameterNames": {
+      "header": "Ocp-Apim-Subscription-Key",
+      "query": "subscription-key"
+    },
+    "subscriptionRequired": false
+  }
+}

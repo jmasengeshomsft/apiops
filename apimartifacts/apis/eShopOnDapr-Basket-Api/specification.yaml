@@ -4,7 +4,6 @@ info:
   description: ''
   version: '1.0'
 servers:
-  - url: http://jm-apim-apiops.azure-api.net/apis/b
   - url: https://jm-apim-apiops.azure-api.net/apis/b
 paths:
   /api/v1/Basket:
@@ -12,6 +11,7 @@ paths:
       tags:
         - Basket
       summary: /api/v1/Basket - GET
+      description: /api/v1/Basket - GET
       operationId: get-api-v1-basket
       responses:
         '200':
@@ -20,9 +20,7 @@ paths:
             text/plain:
               schema:
                 $ref: '#/components/schemas/CustomerBasket'
-              examples:
-                default:
-                  value: 
+              example: ''
             application/json:
               schema:
                 $ref: '#/components/schemas/CustomerBasket'
@@ -53,6 +51,7 @@ paths:
       tags:
         - Basket
       summary: /api/v1/Basket - POST
+      description: /api/v1/Basket - POST
       operationId: post-api-v1-basket
       requestBody:
         content:
@@ -96,9 +95,7 @@ paths:
             text/plain:
               schema:
                 $ref: '#/components/schemas/CustomerBasket'
-              examples:
-                default:
-                  value: 
+              example: ''
             application/json:
               schema:
                 $ref: '#/components/schemas/CustomerBasket'
@@ -129,6 +126,7 @@ paths:
       tags:
         - Basket
       summary: /api/v1/Basket - DELETE
+      description: /api/v1/Basket - DELETE
       operationId: delete-api-v1-basket
       responses:
         '200':
@@ -142,6 +140,7 @@ paths:
       tags:
         - Basket
       summary: /api/v1/Basket/checkout - POST
+      description: /api/v1/Basket/checkout - POST
       operationId: post-api-v1-basket-checkout
       parameters:
         - name: X-Request-Id
@@ -198,9 +197,7 @@ paths:
             text/plain:
               schema:
                 $ref: '#/components/schemas/ProblemDetails'
-              examples:
-                default:
-                  value: 
+              example: ''
             application/json:
               schema:
                 $ref: '#/components/schemas/ProblemDetails'
@@ -228,6 +225,7 @@ paths:
       tags:
         - IntegrationEvent
       summary: /api/v1/IntegrationEvent/OrderStatusChangedToSubmitted - POST
+      description: /api/v1/IntegrationEvent/OrderStatusChangedToSubmitted - POST
       operationId: post-api-v1-integrationevent-orderstatuschangedtosubmitted
       requestBody:
         content:

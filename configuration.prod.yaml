@@ -45,10 +45,10 @@ diagnostics:
 #     properties:
 #       url: "https://prod-75.eastus.logic.azure.com/workflows/[guid goes here]/triggers"
 #       resourceid: "https://management.azure.com/subscriptions/[subscription Guid goes here]/resourceGroups/rg-apim-lab-prod/providers/Microsoft.Logic/workflows/helloworldfromprodlogicapp"
-# apis:
-#   - name: demo-conference-api
-#     diagnostics:
-#       - name: applicationinsights
-#         properties:
-#           verbosity: Error
-#           loggerId: "/subscriptions/[subscription Guid goes here]/resourceGroups/rg-apim-lab-prod/providers/Microsoft.ApiManagement/service/apim-prod-wk-05102022/loggers/[application insights name you chose for the destination environment]"
+apis:
+  - name: eShopOnDapr-Basket-Api
+    diagnostics:
+      - name: appi-mfg-pg-xabg
+        properties:
+          verbosity: Error
+          loggerId: "/subscriptions/38bfc61d-d89a-4df6-b8fb-0c14568dcf29/resourceGroups/dns-hub-rg/providers/Microsoft.ApiManagement/service/destination-apim-001/loggers/appi-mfg-pg-xabg"

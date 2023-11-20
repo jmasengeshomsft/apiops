@@ -1,10 +1,9 @@
 {
   "properties": {
-    "approvalRequired": true,
-    "description": "Default product for eShopOnDapr",
+    "approvalRequired": false,
+    "description": "eShopOnDapr",
     "displayName": "eShopOnDapr",
     "state": "notPublished",
-    "subscriptionRequired": true,
-    "terms": ""
+    "subscriptionRequired": true
   }
 }

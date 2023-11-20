@@ -9,10 +9,9 @@
     "isCurrent": true,
     "path": "apis/b",
     "protocols": [
-      "http",
       "https"
     ],
-    "serviceUrl": "https://eshop.uat.mfgakspg.com/basket",
+    "serviceUrl": "https://jm-apim-apiops.azure-api.net/apis/b",
     "subscriptionKeyParameterNames": {
       "header": "Ocp-Apim-Subscription-Key",
       "query": "subscription-key"

@@ -4,7 +4,6 @@ info:
   description: ''
   version: '1.0'
 servers:
-  - url: http://jm-apim-apiops.azure-api.net/apis/c
   - url: https://jm-apim-apiops.azure-api.net/apis/c
 paths:
   /api/v1/Catalog/brands:
@@ -12,6 +11,7 @@ paths:
       tags:
         - Catalog
       summary: /api/v1/Catalog/brands - GET
+      description: /api/v1/Catalog/brands - GET
       operationId: get-api-v1-catalog-brands
       responses:
         '200':
@@ -22,9 +22,7 @@ paths:
                 type: array
                 items:
                   $ref: '#/components/schemas/CatalogBrand'
-              examples:
-                default:
-                  value: 
+              example: ''
             application/json:
               schema:
                 type: array
@@ -46,6 +44,7 @@ paths:
       tags:
         - Catalog
       summary: /api/v1/Catalog/types - GET
+      description: /api/v1/Catalog/types - GET
       operationId: get-api-v1-catalog-types
       responses:
         '200':
@@ -56,9 +55,7 @@ paths:
                 type: array
                 items:
                   $ref: '#/components/schemas/CatalogType'
-              examples:
-                default:
-                  value: 
+              example: ''
             application/json:
               schema:
                 type: array
@@ -80,6 +77,7 @@ paths:
       tags:
         - Catalog
       summary: /api/v1/Catalog/items/by_ids - GET
+      description: /api/v1/Catalog/items/by_ids - GET
       operationId: get-api-v1-catalog-items-by_ids
       parameters:
         - name: ids
@@ -95,9 +93,7 @@ paths:
                 type: array
                 items:
                   $ref: '#/components/schemas/CatalogItem'
-              examples:
-                default:
-                  value: 
+              example: ''
             application/json:
               schema:
                 type: array
@@ -142,9 +138,7 @@ paths:
             text/plain:
               schema:
                 $ref: '#/components/schemas/ProblemDetails'
-              examples:
-                default:
-                  value: 
+              example: ''
             application/json:
               schema:
                 $ref: '#/components/schemas/ProblemDetails'
@@ -168,6 +162,7 @@ paths:
       tags:
         - Catalog
       summary: /api/v1/Catalog/items/by_page - GET
+      description: /api/v1/Catalog/items/by_page - GET
       operationId: get-api-v1-catalog-items-by_page
       parameters:
         - name: typeId
@@ -205,9 +200,7 @@ paths:
             text/plain:
               schema:
                 $ref: '#/components/schemas/PaginatedItemsViewModel'
-              examples:
-                default:
-                  value: 
+              example: ''
             application/json:
               schema:
                 $ref: '#/components/schemas/PaginatedItemsViewModel'
@@ -237,6 +230,7 @@ paths:
       tags:
         - IntegrationEvent
       summary: /api/v1/IntegrationEvent/OrderStatusChangedToAwaitingStockValidation - POST
+      description: /api/v1/IntegrationEvent/OrderStatusChangedToAwaitingStockValidation - POST
       operationId: post-api-v1-integrationevent-orderstatuschangedtoawaitingstockvalidation
       requestBody:
         content:
@@ -278,6 +272,7 @@ paths:
       tags:
         - IntegrationEvent
       summary: /api/v1/IntegrationEvent/OrderStatusChangedToPaid - POST
+      description: /api/v1/IntegrationEvent/OrderStatusChangedToPaid - POST
       operationId: post-api-v1-integrationevent-orderstatuschangedtopaid
       requestBody:
         content:
@@ -319,6 +314,7 @@ paths:
       tags:
         - Pic
       summary: '/api/v1/catalog/items/{catalogItemId}/pic - GET'
+      description: '/api/v1/catalog/items/{catalogItemId}/pic - GET'
       operationId: get-api-v1-catalog-items-catalogitemid-pic
       parameters:
         - name: catalogItemId
@@ -335,9 +331,7 @@ paths:
             text/plain:
               schema:
                 $ref: '#/components/schemas/ProblemDetails'
-              examples:
-                default:
-                  value: 
+              example: ''
             application/json:
               schema:
                 $ref: '#/components/schemas/ProblemDetails'
@@ -362,9 +356,7 @@ paths:
             text/plain:
               schema:
                 $ref: '#/components/schemas/ProblemDetails'
-              examples:
-                default:
-                  value: 
+              example: ''
             application/json:
               schema:
                 $ref: '#/components/schemas/ProblemDetails'

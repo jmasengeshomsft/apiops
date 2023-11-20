@@ -4,7 +4,6 @@ info:
   description: ''
   version: '1.0'
 servers:
-  - url: http://jm-apim-apiops.azure-api.net/apis/o
   - url: https://jm-apim-apiops.azure-api.net/apis/o
 paths:
   /api/v1/OrderingProcessEvent/UserCheckoutAccepted:
@@ -12,6 +11,7 @@ paths:
       tags:
         - OrderingProcessEvent
       summary: /api/v1/OrderingProcessEvent/UserCheckoutAccepted - POST
+      description: /api/v1/OrderingProcessEvent/UserCheckoutAccepted - POST
       operationId: post-api-v1-orderingprocessevent-usercheckoutaccepted
       requestBody:
         content:
@@ -98,6 +98,7 @@ paths:
       tags:
         - OrderingProcessEvent
       summary: /api/v1/OrderingProcessEvent/OrderStockConfirmed - POST
+      description: /api/v1/OrderingProcessEvent/OrderStockConfirmed - POST
       operationId: post-api-v1-orderingprocessevent-orderstockconfirmed
       requestBody:
         content:
@@ -130,6 +131,7 @@ paths:
       tags:
         - OrderingProcessEvent
       summary: /api/v1/OrderingProcessEvent/OrderStockRejected - POST
+      description: /api/v1/OrderingProcessEvent/OrderStockRejected - POST
       operationId: post-api-v1-orderingprocessevent-orderstockrejected
       requestBody:
         content:
@@ -171,6 +173,7 @@ paths:
       tags:
         - OrderingProcessEvent
       summary: /api/v1/OrderingProcessEvent/OrderPaymentSucceeded - POST
+      description: /api/v1/OrderingProcessEvent/OrderPaymentSucceeded - POST
       operationId: post-api-v1-orderingprocessevent-orderpaymentsucceeded
       requestBody:
         content:
@@ -203,6 +206,7 @@ paths:
       tags:
         - OrderingProcessEvent
       summary: /api/v1/OrderingProcessEvent/OrderPaymentFailed - POST
+      description: /api/v1/OrderingProcessEvent/OrderPaymentFailed - POST
       operationId: post-api-v1-orderingprocessevent-orderpaymentfailed
       requestBody:
         content:
@@ -235,6 +239,7 @@ paths:
       tags:
         - Orders
       summary: '/api/v1/Orders/{orderNumber}/cancel - PUT'
+      description: '/api/v1/Orders/{orderNumber}/cancel - PUT'
       operationId: put-api-v1-orders-ordernumber-cancel
       parameters:
         - name: orderNumber
@@ -253,9 +258,7 @@ paths:
             text/plain:
               schema:
                 $ref: '#/components/schemas/ProblemDetails'
-              examples:
-                default:
-                  value: 
+              example: ''
             application/json:
               schema:
                 $ref: '#/components/schemas/ProblemDetails'
@@ -283,6 +286,7 @@ paths:
       tags:
         - Orders
       summary: '/api/v1/Orders/{orderNumber}/ship - PUT'
+      description: '/api/v1/Orders/{orderNumber}/ship - PUT'
       operationId: put-api-v1-orders-ordernumber-ship
       parameters:
         - name: orderNumber
@@ -305,9 +309,7 @@ paths:
             text/plain:
               schema:
                 $ref: '#/components/schemas/ProblemDetails'
-              examples:
-                default:
-                  value: 
+              example: ''
             application/json:
               schema:
                 $ref: '#/components/schemas/ProblemDetails'
@@ -335,6 +337,7 @@ paths:
       tags:
         - Orders
       summary: '/api/v1/Orders/{orderNumber} - GET'
+      description: '/api/v1/Orders/{orderNumber} - GET'
       operationId: get-api-v1-orders-ordernumber
       parameters:
         - name: orderNumber
@@ -351,9 +354,7 @@ paths:
             text/plain:
               schema:
                 $ref: '#/components/schemas/Order'
-              examples:
-                default:
-                  value: 
+              example: ''
             application/json:
               schema:
                 $ref: '#/components/schemas/Order'
@@ -412,9 +413,7 @@ paths:
             text/plain:
               schema:
                 $ref: '#/components/schemas/ProblemDetails'
-              examples:
-                default:
-                  value: 
+              example: ''
             application/json:
               schema:
                 $ref: '#/components/schemas/ProblemDetails'
@@ -438,6 +437,7 @@ paths:
       tags:
         - Orders
       summary: /api/v1/Orders - GET
+      description: /api/v1/Orders - GET
       operationId: get-api-v1-orders
       responses:
         '200':
@@ -448,9 +448,7 @@ paths:
                 type: array
                 items:
                   $ref: '#/components/schemas/OrderSummary'
-              examples:
-                default:
-                  value: 
+              example: ''
             application/json:
               schema:
                 type: array
@@ -482,6 +480,7 @@ paths:
       tags:
         - UpdateOrderStatusEvent
       summary: /api/v1/UpdateOrderStatusEvent/OrderStatusChangedToSubmitted - POST
+      description: /api/v1/UpdateOrderStatusEvent/OrderStatusChangedToSubmitted - POST
       operationId: post-api-v1-updateorderstatusevent-orderstatuschangedtosubmitted
       requestBody:
         content:
@@ -523,6 +522,7 @@ paths:
       tags:
         - UpdateOrderStatusEvent
       summary: /api/v1/UpdateOrderStatusEvent/OrderStatusChangedToAwaitingStockValidation - POST
+      description: /api/v1/UpdateOrderStatusEvent/OrderStatusChangedToAwaitingStockValidation - POST
       operationId: post-api-v1-updateorderstatusevent-orderstatuschangedtoawaitingstockvalidati
       requestBody:
         content:
@@ -573,6 +573,7 @@ paths:
       tags:
         - UpdateOrderStatusEvent
       summary: /api/v1/UpdateOrderStatusEvent/OrderStatusChangedToValidated - POST
+      description: /api/v1/UpdateOrderStatusEvent/OrderStatusChangedToValidated - POST
       operationId: post-api-v1-updateorderstatusevent-orderstatuschangedtovalidated
       requestBody:
         content:
@@ -617,6 +618,7 @@ paths:
       tags:
         - UpdateOrderStatusEvent
       summary: /api/v1/UpdateOrderStatusEvent/OrderStatusChangedToPaid - POST
+      description: /api/v1/UpdateOrderStatusEvent/OrderStatusChangedToPaid - POST
       operationId: post-api-v1-updateorderstatusevent-orderstatuschangedtopaid
       requestBody:
         content:
@@ -667,6 +669,7 @@ paths:
       tags:
         - UpdateOrderStatusEvent
       summary: /api/v1/UpdateOrderStatusEvent/OrderStatusChangedToShipped - POST
+      description: /api/v1/UpdateOrderStatusEvent/OrderStatusChangedToShipped - POST
       operationId: post-api-v1-updateorderstatusevent-orderstatuschangedtoshipped
       requestBody:
         content:
@@ -708,6 +711,7 @@ paths:
       tags:
         - UpdateOrderStatusEvent
       summary: /api/v1/UpdateOrderStatusEvent/OrderStatusChangedToCancelled - POST
+      description: /api/v1/UpdateOrderStatusEvent/OrderStatusChangedToCancelled - POST
       operationId: post-api-v1-updateorderstatusevent-orderstatuschangedtocancelled
       requestBody:
         content:

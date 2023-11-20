@@ -3,7 +3,7 @@
     "alwaysLog": "allErrors",
     "httpCorrelationProtocol": "Legacy",
     "logClientIp": true,
-    "loggerId": "/subscriptions/38bfc61d-d89a-4df6-b8fb-0c14568dcf29/resourceGroups/dns-hub-rg/providers/Microsoft.ApiManagement/service/jm-apim-apiops/loggers/appi-mfg-pg-xabg",
+    "loggerId": "/subscriptions/38bfc61d-d89a-4df6-b8fb-0c14568dcf29/resourceGroups/dns-hub-rg/providers/Microsoft.ApiManagement/service/destination-apim-001/loggers/appi-mfg-pg-xabg",
     "sampling": {
       "percentage": 100,
       "samplingType": "Fixed"

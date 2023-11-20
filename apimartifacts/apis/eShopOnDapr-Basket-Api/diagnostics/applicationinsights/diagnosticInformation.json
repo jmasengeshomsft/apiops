@@ -47,7 +47,7 @@
     },
     "httpCorrelationProtocol": "W3C",
     "logClientIp": true,
-    "loggerId": "/subscriptions/38bfc61d-d89a-4df6-b8fb-0c14568dcf29/resourceGroups/dns-hub-rg/providers/Microsoft.ApiManagement/service/jm-apim-apiops/loggers/eShopOnDapr-Basket-Api-logger",
+    "loggerId": "/subscriptions/38bfc61d-d89a-4df6-b8fb-0c14568dcf29/resourceGroups/dns-hub-rg/providers/Microsoft.ApiManagement/service/destination-apim-001/loggers/eShopOnDapr-Basket-Api-logger",
     "operationNameFormat": "Name",
     "sampling": {
       "percentage": 100,

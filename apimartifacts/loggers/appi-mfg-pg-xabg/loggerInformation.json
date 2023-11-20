@@ -1,0 +1,10 @@
+{
+  "properties": {
+    "credentials": {
+      "instrumentationKey": "{{Logger-Credentials--655bade34634611ba8312d60}}"
+    },
+    "isBuffered": true,
+    "loggerType": "applicationInsights",
+    "resourceId": "/subscriptions/38bfc61d-d89a-4df6-b8fb-0c14568dcf29/resourceGroups/dns-hub-rg/providers/Microsoft.Insights/components/appi-mfg-pg-xabg"
+  }
+}

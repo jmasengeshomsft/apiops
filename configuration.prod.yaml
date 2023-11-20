@@ -23,7 +23,7 @@ apimServiceName: destination-apim-001
 #       displayName: helloworldfromlogicapp_manual-invoke_634e022983908257b35630b0
 #       value: "{#helloworldfromlogicapp#}"  
 loggers:
-    - name: appi-mfg-pg-xabg
+    - name: appi-mfg-pg-xabg111
       properties:
         loggerType: applicationInsights
         description: prod application insights

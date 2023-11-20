@@ -1,11 +1,11 @@
 {
   "properties": {
     "credentials": {
-      "instrumentationKey": "{{Logger-Credentials--655271f0217d201b1c420d4c}}"
+      "instrumentationKey": "{{Logger-Credentials--655ba34f4634611ba8312d27}}"
     },
     "description": "",
     "isBuffered": true,
     "loggerType": "applicationInsights",
-    "resourceId": "/subscriptions/38bfc61d-d89a-4df6-b8fb-0c14568dcf29/resourceGroups/aks-playground-centralus-hub-rg/providers/Microsoft.Insights/components/aks-playground-centralus-hub-ai"
+    "resourceId": "/subscriptions/38bfc61d-d89a-4df6-b8fb-0c14568dcf29/resourceGroups/dns-hub-rg/providers/Microsoft.Insights/components/appi-mfg-pg-xabg"
   }
 }

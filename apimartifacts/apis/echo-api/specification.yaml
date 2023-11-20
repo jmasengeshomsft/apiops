@@ -3,7 +3,7 @@ info:
   title: Echo API
   version: '1.0'
 servers:
-  - url: https://aks-playground-centralus-eshop-dev-apim-001.azure-api.net/echo
+  - url: https://jm-apim-apiops.azure-api.net/echo
 paths:
   /resource:
     get:

@@ -4,8 +4,8 @@ info:
   description: ''
   version: '1.0'
 servers:
-  - url: http://aks-playground-centralus-eshop-dev-apim-001.azure-api.net/apis/o
-  - url: https://aks-playground-centralus-eshop-dev-apim-001.azure-api.net/apis/o
+  - url: http://jm-apim-apiops.azure-api.net/apis/o
+  - url: https://jm-apim-apiops.azure-api.net/apis/o
 paths:
   /api/v1/OrderingProcessEvent/UserCheckoutAccepted:
     post:
